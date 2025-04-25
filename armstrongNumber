@@ -1,0 +1,11 @@
+N=371
+dup=N
+Sum=0
+while(N>0):
+    last=N%10
+    Sum=Sum+(last**3)
+    N=N//10
+if Sum==dup:
+    print(True)
+else:
+    print(False)
